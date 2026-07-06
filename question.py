@@ -10,3 +10,10 @@ b=float(n2)
 c=float(n3)
 avg=(a+b+c)/3
 print(avg)
+
+''' Ask the user for a temperature in Celsius (string input). Convert it to , 
+then calculate and print temperature in Fahrenheit.'''
+temp=input("enter the value of the temp===")
+tempCal=float(temp)
+tempFah=(tempCal*(9/5))+32
+print(tempFah)
