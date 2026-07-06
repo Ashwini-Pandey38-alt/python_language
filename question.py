@@ -22,3 +22,14 @@ print(tempFah)
 r=float(input("enter the radius of circle===="))
 area=3.14*(r**2)
 print(area)
+
+
+'''Ask the user for:  Principal (P), Rate (R), Time (T). Convert all to float and 
+compute simple interest: '''
+P=float(input("enter the value of Principal=="))
+R=float(input("enter the value of rate =="))
+T=float(input("enter the value of time=="))
+simple_intrest=(P*R*T)/100
+print(' so the simple_intrest is ==',simple_intrest)
+
+
