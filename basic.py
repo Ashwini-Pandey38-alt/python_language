@@ -17,3 +17,5 @@ d=a-b
 p=a*b
 q=a/b
 print("sum,difference,product, and quotient","====",s,d,p,q)
+
+print(" ashwini pandey")
