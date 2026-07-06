@@ -17,3 +17,8 @@ temp=input("enter the value of the temp===")
 tempCal=float(temp)
 tempFah=(tempCal*(9/5))+32
 print(tempFah)
+
+'''Take the radius ( ) as user input and print the area.'''
+r=float(input("enter the radius of circle===="))
+area=3.14*(r**2)
+print(area)
