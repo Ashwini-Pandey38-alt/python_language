@@ -96,16 +96,30 @@
 
 
 # # di()
-"""Write a function to return the sum of the digit of number n """
-def sum():
-    n = input("enter the value of n (only 3 digit) == ")
+# """Write a function to return the sum of the digit of number n """
+# def sum():
+#     n = input("enter the value of n (only 3 digit) == ")
     
     
-    a = int(n[0])
-    b = int(n[1])
-    c = int(n[2])
+#     a = int(n[0])
+#     b = int(n[1])
+#     c = int(n[2])
     
-    sum = a + b + c
-    print(sum)
+#     sum = a + b + c
+#     print(sum)
 
-sum()
+# sum()
+'''. Write a program to print all numbers from 1 to 100 that are divisible by both 3 
+and 5.'''
+def div():
+    a=1
+    b=100
+    for i in range(a,b+1):
+        if (i%3==0 and i%5==0):
+            print (i)
+        else:
+            print("")
+
+
+div()
+
