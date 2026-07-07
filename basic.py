@@ -19,3 +19,8 @@ q=a/b
 print("sum,difference,product, and quotient","====",s,d,p,q)
 
 print(" ashwini pandey")
+
+
+
+while True :
+    print('ashwini')
