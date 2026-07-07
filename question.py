@@ -65,23 +65,37 @@
 # final_tax()
 
 
-'''Write a function that takes two integers  and  and prints all even 
-numbers between them (inclusive)'''
+# '''Write a function that takes two integers  and  and prints all even 
+# numbers between them (inclusive)'''
 
-def even():
-    a=int(input("entre the value for a "))
-    b=int(input("entre the value for b "))
-    for i in range (a,b+1):
-        if (i%2==0):
+# def even():
+#     a=int(input("entre the value for a "))
+#     b=int(input("entre the value for b "))
+#     for i in range (a,b+1):
+#         if (i%2==0):
 
-            print(i)
-        else:
-            print(" ")
+#             print(i)
+#         else:
+#             print(" ")
 
 
 
-even()
+# even()
 
-    
+
+
+
+'''Write a function to return the number of digits in a number,n'''
+def di():
+    n=str(input("enter the value of n == "))
+    count=0
+    for i in n:
+        count+=1
+
+    print(count)
+
+
+di()
+
     
           
