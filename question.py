@@ -85,17 +85,28 @@
 
 
 
-'''Write a function to return the number of digits in a number,n'''
-def di():
-    n=str(input("enter the value of n == "))
-    count=0
-    for i in n:
-        count+=1
+# '''Write a function to return the number of digits in a number,n'''
+# def di():
+#     n=str(input("enter the value of n == "))
+#     count=0
+#     for i in n:
+#         count+=1
 
-    print(count)
+#     print(count)
 
 
-di()
+# # di()
 
+''' Write a function to return the  sum of the digit in number n'''
+def sum():
+    n=(input("enter the value of n (only 3 digit)== "))
     
-          
+    a=int(n[0])
+    b=int(n[1])
+    c=int(n[2])
+    sum=a+b+c
+
+    print ('sum =',sum)
+
+
+sum()
