@@ -1,7 +1,7 @@
 # print("hello world")
 
-# #. Ask the user to enter two integers and one float. Convert them all to floats 
-# #and print their average.
+# '''Ask the user to enter two integers and one float. Convert them all to floats 
+# and print their average.'''
 # n1=int(input("enter the value of the number n1==="))
 # n2=float(input("enter the value of the number n2==="))
 # n3=int(input("enter the value of the number n3==="))
@@ -35,14 +35,33 @@
 
 
 
-def raa():
-    i=1
-    while (i<=5):
-        print("hello world")
-        i+=1
+# def raa():
+#     i=1
+#     while (i<=5):
+#         print("hello world")
+#         i+=1
 
-raa()
-print("out of loop now")
+# raa()
+# print("out of loop now")
 
+''' Write a program that takes salary as input. Using conditional statements, 
+calculate the  final tax rate based on these rules• 
+If salary < 30,000 → 5%
+• 
+If salary is 30,000–70,000 → 15%
+• 
+If salary > 70,000 → 25%'''
+
+
+def final_tax():
+    salary=float(input('enter the salary =='))
+    if (salary==30000):
+        print ("you have to pay 5% tax")
+    elif (salary>=30000 or salary<=70000):
+        print(" you have to pay 15 % tax ")
+    elif(salary==70000):
+        print (" you have to pay 25 % tax")
+
+final_tax()
 
 
