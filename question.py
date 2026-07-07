@@ -44,24 +44,44 @@
 # raa()
 # print("out of loop now")
 
-''' Write a program that takes salary as input. Using conditional statements, 
-calculate the  final tax rate based on these rules• 
-If salary < 30,000 → 5%
-• 
-If salary is 30,000–70,000 → 15%
-• 
-If salary > 70,000 → 25%'''
+# ''' Write a program that takes salary as input. Using conditional statements, 
+# calculate the  final tax rate based on these rules• 
+# If salary < 30,000 → 5%
+# • 
+# If salary is 30,000–70,000 → 15%
+# • 
+# If salary > 70,000 → 25%'''
 
 
-def final_tax():
-    salary=float(input('enter the salary =='))
-    if (salary==30000):
-        print ("you have to pay 5% tax")
-    elif (salary>=30000 or salary<=70000):
-        print(" you have to pay 15 % tax ")
-    elif(salary==70000):
-        print (" you have to pay 25 % tax")
+# def final_tax():
+#     salary=float(input('enter the salary =='))
+#     if (salary==30000):
+#         print ("you have to pay 5% tax")
+#     elif (salary>=30000 or salary<=70000):
+#         print(" you have to pay 15 % tax ")
+#     elif(salary==70000):
+#         print (" you have to pay 25 % tax")
 
-final_tax()
+# final_tax()
 
 
+'''Write a function that takes two integers  and  and prints all even 
+numbers between them (inclusive)'''
+
+def even():
+    a=int(input("entre the value for a "))
+    b=int(input("entre the value for b "))
+    for i in range (a,b+1):
+        if (i%2==0):
+
+            print(i)
+        else:
+            print(" ")
+
+
+
+even()
+
+    
+    
+          
