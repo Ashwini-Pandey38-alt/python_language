@@ -1,35 +1,48 @@
-print("hello world")
+# print("hello world")
 
-#. Ask the user to enter two integers and one float. Convert them all to floats 
-#and print their average.
-n1=int(input("enter the value of the number n1==="))
-n2=float(input("enter the value of the number n2==="))
-n3=int(input("enter the value of the number n3==="))
-a=float(n1)
-b=float(n2)
-c=float(n3)
-avg=(a+b+c)/3
-print(avg)
+# #. Ask the user to enter two integers and one float. Convert them all to floats 
+# #and print their average.
+# n1=int(input("enter the value of the number n1==="))
+# n2=float(input("enter the value of the number n2==="))
+# n3=int(input("enter the value of the number n3==="))
+# a=float(n1)
+# b=float(n2)
+# c=float(n3)
+# avg=(a+b+c)/3
+# print(avg)
 
-''' Ask the user for a temperature in Celsius (string input). Convert it to , 
-then calculate and print temperature in Fahrenheit.'''
-temp=input("enter the value of the temp===")
-tempCal=float(temp)
-tempFah=(tempCal*(9/5))+32
-print(tempFah)
+# ''' Ask the user for a temperature in Celsius (string input). Convert it to , 
+# then calculate and print temperature in Fahrenheit.'''
+# temp=input("enter the value of the temp===")
+# tempCal=float(temp)
+# tempFah=(tempCal*(9/5))+32
+# print(tempFah)
 
-'''Take the radius ( ) as user input and print the area.'''
-r=float(input("enter the radius of circle===="))
-area=3.14*(r**2)
-print(area)
+# '''Take the radius ( ) as user input and print the area.'''
+# r=float(input("enter the radius of circle===="))
+# area=3.14*(r**2)
+# print(area)
 
 
-'''Ask the user for:  Principal (P), Rate (R), Time (T). Convert all to float and 
-compute simple interest: '''
-P=float(input("enter the value of Principal=="))
-R=float(input("enter the value of rate =="))
-T=float(input("enter the value of time=="))
-simple_intrest=(P*R*T)/100
-print(' so the simple_intrest is ==',simple_intrest)
+# '''Ask the user for:  Principal (P), Rate (R), Time (T). Convert all to float and 
+# compute simple interest: '''
+# P=float(input("enter the value of Principal=="))
+# R=float(input("enter the value of rate =="))
+# T=float(input("enter the value of time=="))
+# simple_intrest=(P*R*T)/100
+# print(' so the simple_intrest is ==',simple_intrest)
+
+
+
+
+def raa():
+    i=1
+    while (i<=5):
+        print("hello world")
+        i+=1
+
+raa()
+print("out of loop now")
+
 
 
