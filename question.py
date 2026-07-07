@@ -96,17 +96,16 @@
 
 
 # # di()
-
-''' Write a function to return the  sum of the digit in number n'''
+"""Write a function to return the sum of the digit of number n """
 def sum():
-    n=(input("enter the value of n (only 3 digit)== "))
+    n = input("enter the value of n (only 3 digit) == ")
     
-    a=int(n[0])
-    b=int(n[1])
-    c=int(n[2])
-    sum=a+b+c
-
-    print ('sum =',sum)
-
+    
+    a = int(n[0])
+    b = int(n[1])
+    c = int(n[2])
+    
+    sum = a + b + c
+    print(sum)
 
 sum()
