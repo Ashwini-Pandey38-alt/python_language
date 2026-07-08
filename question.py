@@ -123,18 +123,39 @@
 
 # div()
 
-''' Write a function prime(n) that returns true if  is a prime number and 
-False otherwise'''
-def prime(n):
-    for i in range (2,n):
+# ''' Write a function prime(n) that returns true if  is a prime number and 
+# False otherwise'''
+# def prime(n):
+#     for i in range (2,n):
 
-        if n%i==0:
-            return  False
+#         if n%i==0:
+#             return  False
 
-    return True
+#     return True
 
 
-print(prime(9))
+# print(prime(9))
 
  
- 
+''' Letʼs create a “
+Number Guessing Game
+”.  Given a secret number (already 
+decided by you), write a program that asks the user to guess it and prints:
+"Too high" if the guess is above the number
+"Too low"  if the guess is below
+"Correct!" if the guess matche'''
+
+def guess():
+    a=15
+    while True:
+        n=int(input('enter the number value=='))
+        if n>a:
+            print( "too high ")
+        elif n<a:
+            print("too low")
+        else:
+            print('correct')
+            break
+
+
+guess()
