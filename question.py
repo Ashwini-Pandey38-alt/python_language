@@ -160,14 +160,26 @@
 
 # guess()
 
-'''war to find the factorial of given number n '''
-def fact():
-    n=int(input('enter the number =='))
-    fact=1
-    for i in range (n,1,-1):
+# '''war to find the factorial of given number n '''
+# def fact():
+#     n=int(input('enter the number =='))
+#     fact=1
+#     for i in range (n,1,-1):
 
-        fact*=i
+#         fact*=i
 
-    print(fact)
+#     print(fact)
 
-fact()
+# fact()
+
+'''Ask the user for a string and check whether it is a palindrome or not. '''
+def rev():
+    word=input('enter the word=')
+    re=list(word)
+    if (re==re[::-1]):
+        print ('yes it an  palindrome')
+    else:
+        print ('no is not an palindrome')
+
+
+rev()
