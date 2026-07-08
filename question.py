@@ -137,25 +137,37 @@
 # print(prime(9))
 
  
-''' Letʼs create a “
-Number Guessing Game
-”.  Given a secret number (already 
-decided by you), write a program that asks the user to guess it and prints:
-"Too high" if the guess is above the number
-"Too low"  if the guess is below
-"Correct!" if the guess matche'''
+# ''' Letʼs create a “
+# Number Guessing Game
+# ”.  Given a secret number (already 
+# decided by you), write a program that asks the user to guess it and prints:
+# "Too high" if the guess is above the number
+# "Too low"  if the guess is below
+# "Correct!" if the guess matche'''
 
-def guess():
-    a=15
-    while True:
-        n=int(input('enter the number value=='))
-        if n>a:
-            print( "too high ")
-        elif n<a:
-            print("too low")
-        else:
-            print('correct')
-            break
+# def guess():
+#     a=15
+#     while True:
+#         n=int(input('enter the number value=='))
+#         if n>a:
+#             print( "too high ")
+#         elif n<a:
+#             print("too low")
+#         else:
+#             print('correct')
+#             break
 
 
-guess()
+# guess()
+
+'''war to find the factorial of given number n '''
+def fact():
+    n=int(input('enter the number =='))
+    fact=1
+    for i in range (n,1,-1):
+
+        fact*=i
+
+    print(fact)
+
+fact()
