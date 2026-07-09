@@ -206,18 +206,23 @@
     
 # avr()
 
-''' Input two lists of integers from the user. Merge them into one list and sort the 
-result'''
-def merge():
-    n=int(input('enter the value for the length of the lists=='))
-    list1=[]
-    for i in range (n):
-        num1=int(input('enter the value of num1=='))
-        list1.append(num1)
-    list2=[]
-    for k in range (n):
-        num2=int(input('enter the value of num2=='))
-        list2.append(num2)
-    print(list1+list2)
+# ''' Input two lists of integers from the user. Merge them into one list and sort the 
+# result'''
+# def merge():
+#     n=int(input('enter the value for the length of the lists=='))
+#     list1=[]
+#     for i in range (n):
+#         num1=int(input('enter the value of num1=='))
+#         list1.append(num1)
+#     list2=[]
+#     for k in range (n):
+#         num2=int(input('enter the value of num2=='))
+#         list2.append(num2)
+#     print(list1+list2)
 
-merge()
+# merge()
+
+'''use of dictionary .git()function'''
+item={ 5:"ashwini",'roll no. ':42,"sem":2 }
+item.git(5)
+
