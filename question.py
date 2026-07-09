@@ -184,25 +184,40 @@
 
 # rev()
 
-'''Given a list of integers compute the average of all numbers in the list'''
+# '''Given a list of integers compute the average of all numbers in the list'''
 
-def avr():
-    list1=[]
-    x=int(input('enter the value for the length of the list1==='))
-    for  i in range (x):
+# def avr():
+#     list1=[]
+#     x=int(input('enter the value for the length of the list1==='))
+#     for  i in range (x):
 
-        num=int(input('enter the number for list==='))
-        list1.append(num)
+#         num=int(input('enter the number for list==='))
+#         list1.append(num)
 
-    count=0
-    sum=0
-    for k in list1:
-        sum+=k
-        count+=1
+#     count=0
+#     sum=0
+#     for k in list1:
+#         sum+=k
+#         count+=1
 
 
-    print(list1 , "avrage is==", (sum/count))
+#     print(list1 , "avrage is==", (sum/count))
 
     
-avr()
+# avr()
 
+''' Input two lists of integers from the user. Merge them into one list and sort the 
+result'''
+def merge():
+    n=int(input('enter the value for the length of the lists=='))
+    list1=[]
+    for i in range (n):
+        num1=int(input('enter the value of num1=='))
+        list1.append(num1)
+    list2=[]
+    for k in range (n):
+        num2=int(input('enter the value of num2=='))
+        list2.append(num2)
+    print(list1+list2)
+
+merge()
