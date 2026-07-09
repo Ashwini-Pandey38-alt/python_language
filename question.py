@@ -172,14 +172,37 @@
 
 # fact()
 
-'''Ask the user for a string and check whether it is a palindrome or not. '''
-def rev():
-    word=input('enter the word=')
-    re=list(word)
-    if (re==re[::-1]):
-        print ('yes it an  palindrome')
-    else:
-        print ('no is not an palindrome')
+# '''Ask the user for a string and check whether it is a palindrome or not. '''
+# def rev():
+#     word=input('enter the word=')
+#     re=list(word)
+#     if (re==re[::-1]):
+#         print ('yes it an palandrom')
+#     else:
+#         print ('no is not an ')
 
 
-rev()
+# rev()
+
+'''Given a list of integers compute the average of all numbers in the list'''
+
+def avr():
+    list1=[]
+    x=int(input('enter the value for the length of the list1==='))
+    for  i in range (x):
+
+        num=int(input('enter the number for list==='))
+        list1.append(num)
+
+    count=0
+    sum=0
+    for k in list1:
+        sum+=k
+        count+=1
+
+
+    print(list1 , "avrage is==", (sum/count))
+
+    
+avr()
+
