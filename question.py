@@ -249,10 +249,18 @@
 #     print('tuple of all even value in given tuple',to)
 
 # t()
-'''WAP to show the length of list and also add new value in list'''
-#Given a list of words:
-words = ["apple", "banana", "kiwi", "cherry", "mango"]
-len(words)
-words.append('water')
+# '''WAP to show the length of list and also add new value in list'''
+# #Given a list of words:
+# words = ["apple", "banana", "kiwi", "cherry", "mango"]
+# len(words)
+# words.append('water')
+
+'''Write a program that takes a string from the user and prints the number of 
+spaces in the string'''
+def cout():
+    string=input('enter the string u wanted')
+    print(string.count(' '))
+
+cout()
 
 
