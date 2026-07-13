@@ -226,26 +226,33 @@
 # item={ 5:"ashwini",'roll no. ':42,"sem":2 }
 # item.git(5)
 
-'''Given a tuple of integers, create:
-• A tuple of all even numbers
-• A tuple of all odd number'''
-def t():
-    tup=(1,2,3,4,5,6,7,8,9,10)
-    te=()
-    to=()
-    l=list(te)
-    k=list(to)
+# '''Given a tuple of integers, create:
+# • A tuple of all even numbers
+# • A tuple of all odd number'''
+# def t():
+#     tup=(1,2,3,4,5,6,7,8,9,10)
+#     te=()
+#     to=()
+#     l=list(te)
+#     k=list(to)
     
-    for i in tup:
-        if ( i%2==0 ):
+#     for i in tup:
+#         if ( i%2==0 ):
 
-            l.append(i)
-        else:
+#             l.append(i)
+#         else:
 
-            k.append(i)
-    te=tuple(l)
-    to=tuple(k)
-    print('tuple of all even value in given tuple',te)
-    print('tuple of all even value in given tuple',to)
+#             k.append(i)
+#     te=tuple(l)
+#     to=tuple(k)
+#     print('tuple of all even value in given tuple',te)
+#     print('tuple of all even value in given tuple',to)
 
-t()
+# t()
+'''WAP to show the length of list and also add new value in list'''
+#Given a list of words:
+words = ["apple", "banana", "kiwi", "cherry", "mango"]
+len(words)
+words.append('water')
+
+
