@@ -255,12 +255,26 @@
 # len(words)
 # words.append('water')
 
-'''Write a program that takes a string from the user and prints the number of 
-spaces in the string'''
-def cout():
-    string=input('enter the string u wanted')
-    print(string.count(' '))
 
-cout()
+# '''Write a program that takes a string from the user and prints the number of 
+# spaces in the string'''
+# def cout():
+#     string=input('enter the string u wanted')
+#     print(string.count(' '))
+
+# cout()
+''' Write a program to check whether two lists share no common elements. '''
+def no_common_elements(list1, list2):
+    common = set(list1) & set(list2)
+    return len(common) == 0
+
+list_a = [10, 20, 30]
+list_b = [40, 50, 60]
+
+if no_common_elements(list_a, list_b):
+    print("Dono lists mein koi bhi element common nahi hai.")
+else:
+    print("Dono lists mein kuch elements common hain.")
+
 
 
