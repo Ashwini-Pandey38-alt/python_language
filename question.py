@@ -263,18 +263,38 @@
 #     print(string.count(' '))
 
 # cout()
-''' Write a program to check whether two lists share no common elements. '''
-def no_common_elements(list1, list2):
-    common = set(list1) & set(list2)
-    return len(common) == 0
+# ''' Write a program to check whether two lists share no common elements. '''
+# def no_common_elements(list1, list2):
+#     common = set(list1) & set(list2)
+#     return len(common) == 0
 
-list_a = [10, 20, 30]
-list_b = [40, 50, 60]
+# list_a = [10, 20, 30]
+# list_b = [40, 50, 60]
 
-if no_common_elements(list_a, list_b):
-    print("Dono lists mein koi bhi element common nahi hai.")
-else:
-    print("Dono lists mein kuch elements common hain.")
+# if no_common_elements(list_a, list_b):
+#     print("Dono lists mein koi bhi element common nahi hai.")
+# else:
+#     print("Dono lists mein kuch elements common hain.")
+
+
+''' Given a list, print all elements that appear more than once in the list'''
+def find_duplicates(lst):
+    seen = set()
+    duplicates = set()
+    
+    for item in lst:
+        if item in seen:
+            duplicates.add(item)
+        else:
+            seen.add(item)
+            
+    return list(duplicates)
+
+# Example:
+my_list = [1, 2, 3, 2, 4, 5, 1, 6, 1]
+print(find_duplicates(my_list))  # Output: [1, 2]
+
+
 
 
 
