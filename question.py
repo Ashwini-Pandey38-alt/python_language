@@ -277,22 +277,39 @@
 #     print("Dono lists mein kuch elements common hain.")
 
 
-''' Given a list, print all elements that appear more than once in the list'''
-def find_duplicates(lst):
-    seen = set()
-    duplicates = set()
+# ''' Given a list, print all elements that appear more than once in the list'''
+# def find_duplicates(lst):
+#     seen = set()
+#     duplicates = set()
     
-    for item in lst:
-        if item in seen:
-            duplicates.add(item)
-        else:
-            seen.add(item)
+#     for item in lst:
+#         if item in seen:
+#             duplicates.add(item)
+#         else:
+#             seen.add(item)
             
-    return list(duplicates)
+#     return list(duplicates)
 
-# Example:
-my_list = [1, 2, 3, 2, 4, 5, 1, 6, 1]
-print(find_duplicates(my_list))  # Output: [1, 2]
+# # Example:
+# my_list = [1, 2, 3, 2, 4, 5, 1, 6, 1]
+# print(find_duplicates(my_list))  # Output: [1, 2]
+''' Ask the user for a string and print:
+• All unique characters
+• The count of unique character'''
+# User se string input lena
+user_string = input("Ek string enter karein: ")
+
+# Khali set banana
+unique_chars = set()
+
+# Loop chala kar set me characters add karna
+for char in user_string:
+    unique_chars.add(char)
+
+# Results print karna
+print("Saare unique characters:", list(unique_chars))
+print("Unique characters ka count:", len(unique_chars))
+
 
 
 
