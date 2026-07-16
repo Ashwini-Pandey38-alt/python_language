@@ -320,12 +320,23 @@
 #         print("*", end=" ")
 #     print()
 
-''' pattern in decresing order'''
+# ''' pattern in decresing order'''
+# n = 5
+
+# # Outer loop runs from n down to 1
+# for i in range(n, 0, -1):
+#     # Inner loop prints stars based on current row count
+#     for j in range(0, i):
+#         print("*", end=" ")
+#     print()
+''' Pyramid pattern'''
 n = 5
 
-# Outer loop runs from n down to 1
-for i in range(n, 0, -1):
-    # Inner loop prints stars based on current row count
-    for j in range(0, i):
-        print("*", end=" ")
+for i in range(1, n + 1):
+    # Print leading spaces
+    for j in range(n - i):
+        print(" ", end="")
+    # Print stars
+    for k in range(2 * i - 1):
+        print("*", end="")
     print()
