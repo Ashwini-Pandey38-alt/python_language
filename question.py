@@ -297,31 +297,35 @@
 # • All unique characters
 # • The count of unique character'''
 # User se string input lena
-user_string = input("Ek string enter karein: ")
+# user_string = input("Ek string enter karein: ")
 
-# Khali set banana
-unique_chars = set()
+# # Khali set banana
+# unique_chars = set()
 
-# Loop chala kar set me characters add karna
-for char in user_string:
-    unique_chars.add(char)
+# # Loop chala kar set me characters add karna
+# for char in user_string:
+#     unique_chars.add(char)
 
-# Results print karna
-print("Saare unique characters:", list(unique_chars))
-print("Unique characters ka count:", len(unique_chars))
+# # Results print karna
+# print("Saare unique characters:", list(unique_chars))
+# print("Unique characters ka count:", len(unique_chars))
 
 
-'''creating pattern'''
+# ''n = 5
 
-# Number of rows
+# # Outer loop runs from n down to 1
+# for i in range(n, 0, -1):
+#     # Inner loop prints stars based on current row count
+#     for j in range(0, i):
+#         print("*", end=" ")
+#     print()
+
+''' pattern in decresing order'''
 n = 5
 
-# Outer loop for rows
-for i in range(1, n + 1):
-    # Inner loop for columns (stars)
-    for j in range(1, i + 1):
+# Outer loop runs from n down to 1
+for i in range(n, 0, -1):
+    # Inner loop prints stars based on current row count
+    for j in range(0, i):
         print("*", end=" ")
-    # New line after each row
     print()
-
-
