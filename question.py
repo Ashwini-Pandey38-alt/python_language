@@ -329,14 +329,18 @@
 #     for j in range(0, i):
 #         print("*", end=" ")
 #     print()
-''' Pyramid pattern'''
-n = 5
+# ''' Pyramid pattern'''
+# n = 5
 
+# for i in range(1, n + 1):
+#     # Print leading spaces
+#     for j in range(n - i):
+#         print(" ", end="")
+#     # Print stars
+#     for k in range(2 * i - 1):
+#         print("*", end="")
+#     print()
+'''right angle triangle'''
+n = 5
 for i in range(1, n + 1):
-    # Print leading spaces
-    for j in range(n - i):
-        print(" ", end="")
-    # Print stars
-    for k in range(2 * i - 1):
-        print("*", end="")
-    print()
+    print("* " * i)
