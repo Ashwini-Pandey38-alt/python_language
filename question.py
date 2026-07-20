@@ -346,12 +346,23 @@
 #     print("* " * i)
 
 
-# ek tuple me inputs rakh liye
-inputs = (1, 0)
+# # ek tuple me inputs rakh liye
+# inputs = (1, 0)
 
-a = inputs[0]
-b = inputs[1]
+# a = inputs[0]
+# b = inputs[1]
 
-# simple and logic
-ans = a and b
-print("AND Output:", ans)
+# # simple and logic
+# ans = a and b
+# print("AND Output:", ans)
+
+
+# do alag simple lists
+list1 = [0, 1, 0]
+list2 = [1, 0, 0]
+
+# loop chalakar or check kiya
+for i in range(3):
+    ans = list1[i] or list2[i]
+    print("OR Output:", ans)
+
