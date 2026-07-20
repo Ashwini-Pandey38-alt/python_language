@@ -357,12 +357,21 @@
 # print("AND Output:", ans)
 
 
-# do alag simple lists
-list1 = [0, 1, 0]
-list2 = [1, 0, 0]
+# # do alag simple lists
+# list1 = [0, 1, 0]
+# list2 = [1, 0, 0]
 
-# loop chalakar or check kiya
-for i in range(3):
-    ans = list1[i] or list2[i]
-    print("OR Output:", ans)
+# # loop chalakar or check kiya
+# for i in range(3):
+#     ans = list1[i] or list2[i]
+#     print("OR Output:", ans)
+
+# bas do pairs check karne ke liye
+pairs = [(0,1), (1,1)]
+
+for a, b in pairs:
+    # agar alag hain to ans 1 hoga
+    ans = 1 if a != b else 0
+    print(a, b, "->", ans)
+
 
