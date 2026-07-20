@@ -340,7 +340,18 @@
 #     for k in range(2 * i - 1):
 #         print("*", end="")
 #     print()
-'''right angle triangle'''
-n = 5
-for i in range(1, n + 1):
-    print("* " * i)
+# '''right angle triangle'''
+# n = 5
+# for i in range(1, n + 1):
+#     print("* " * i)
+
+
+# ek tuple me inputs rakh liye
+inputs = (1, 0)
+
+a = inputs[0]
+b = inputs[1]
+
+# simple and logic
+ans = a and b
+print("AND Output:", ans)
