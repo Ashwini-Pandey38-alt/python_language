@@ -367,11 +367,26 @@
 #     print("OR Output:", ans)
 
 # bas do pairs check karne ke liye
-pairs = [(0,1), (1,1)]
+# pairs = [(0,1), (1,1)]
 
-for a, b in pairs:
-    # agar alag hain to ans 1 hoga
-    ans = 1 if a != b else 0
-    print(a, b, "->", ans)
+# for a, b in pairs:
+#     # agar alag hain to ans 1 hoga
+#     ans = 1 if a != b else 0
+#     print(a, b, "->", ans)
+
+class Vehicle:
+    """A basic parent class representing a generic vehicle."""
+    
+    # Class attribute (shared by all instances)
+    category = "Transport"
+
+    # Constructor method to initialize instance attributes
+    def __init__(self, brand, model):
+        self.brand = brand    # Instance attribute
+        self.model = model    # Instance attribute
+
+    # Instance method (an action the object can perform)
+    def display_info(self):
+        print(f"Vehicle: {self.brand} {self.model} (Category: {self.category})")
 
 
