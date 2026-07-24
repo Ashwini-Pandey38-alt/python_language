@@ -374,19 +374,26 @@
 #     ans = 1 if a != b else 0
 #     print(a, b, "->", ans)
 
-class Vehicle:
-    """A basic parent class representing a generic vehicle."""
+# class Vehicle:
+#     """A basic parent class representing a generic vehicle."""
     
-    # Class attribute (shared by all instances)
-    category = "Transport"
+#     # Class attribute (shared by all instances)
+#     category = "Transport"
 
-    # Constructor method to initialize instance attributes
-    def __init__(self, brand, model):
-        self.brand = brand    # Instance attribute
-        self.model = model    # Instance attribute
+#     # Constructor method to initialize instance attributes
+#     def __init__(self, brand, model):
+#         self.brand = brand    # Instance attribute
+#         self.model = model    # Instance attribute
 
-    # Instance method (an action the object can perform)
-    def display_info(self):
-        print(f"Vehicle: {self.brand} {self.model} (Category: {self.category})")
+#     # Instance method (an action the object can perform)
+#     def display_info(self):
+#         print(f"Vehicle: {self.brand} {self.model} (Category: {self.category})")
 
-
+# 1. ABSTRACTION
+# Hides complexity by defining a method structure without writing code for it.
+class BlueprintVehicle:
+    """A standard class acting as a structural blueprint."""
+    
+    def start_engine(self):
+        """Acts as an abstract method by raising an error if not overridden."""
+        raise NotImplementedError("Subclasses must implement this method!")
