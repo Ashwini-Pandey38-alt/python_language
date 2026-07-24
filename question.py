@@ -391,9 +391,24 @@
 
 # 1. ABSTRACTION
 # Hides complexity by defining a method structure without writing code for it.
-class BlueprintVehicle:
-    """A standard class acting as a structural blueprint."""
+# class BlueprintVehicle:
+#     """A standard class acting as a structural blueprint."""
     
-    def start_engine(self):
-        """Acts as an abstract method by raising an error if not overridden."""
-        raise NotImplementedError("Subclasses must implement this method!")
+#     def start_engine(self):
+#         """Acts as an abstract method by raising an error if not overridden."""
+#         raise NotImplementedError("Subclasses must implement this method!")
+
+
+#2. INHERITANCE
+
+# Allows a child class to adopt the attributes and methods of a parent class.
+class Car(Vehicle):
+    """Car inherits everything from the Vehicle class."""
+    
+    def __init__(self, brand, model, doors):
+        # super() links to the parent class constructor to set brand and model
+        super().__init__(brand, model)
+        self.doors = doors  # Unique attribute for Car
+
+    def blow_horn(self):
+        return "Beep beep!"
