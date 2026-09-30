@@ -21,6 +21,8 @@ print("sum,difference,product, and quotient","====",s,d,p,q)
 print(" ashwini pandey")
 
 
-
-while True :
+i=5
+while i<=5 :
     print('ashwini')
+    i+=1
+    

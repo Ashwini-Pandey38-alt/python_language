@@ -311,7 +311,7 @@ print("Saare unique characters:", list(unique_chars))
 print("Unique characters ka count:", len(unique_chars))
 
 
-'''n = 5'''
+n = 5
 
 # Outer loop runs from n down to 1
 for i in range(n, 0, -1):
